@@ -1,14 +1,15 @@
 package com.github.jhonnymertz.wkhtmltopdf.wrapper.unit;
 
-import com.github.jhonnymertz.wkhtmltopdf.wrapper.Pdf;
-import com.github.jhonnymertz.wkhtmltopdf.wrapper.configurations.WrapperConfig;
-import com.github.jhonnymertz.wkhtmltopdf.wrapper.configurations.XvfbConfig;
-import com.github.jhonnymertz.wkhtmltopdf.wrapper.params.Param;
+import static org.hamcrest.core.StringContains.containsString;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.hamcrest.core.StringContains.containsString;
+import com.github.jhonnymertz.wkhtmltopdf.wrapper.Pdf;
+import com.github.jhonnymertz.wkhtmltopdf.wrapper.configurations.WrapperConfig;
+import com.github.jhonnymertz.wkhtmltopdf.wrapper.configurations.XvfbConfig;
+import com.github.jhonnymertz.wkhtmltopdf.wrapper.params.Param;
 
 public class XvfbConfigTests {
 
